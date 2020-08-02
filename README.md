@@ -9,3 +9,9 @@ Smith, J.W., Everhart, J.E., Dickson, W.C., Knowler, W.C., & Johannes, R.S. (198
 
 Inspiration
 Can you build a machine learning model to accurately predict whether or not the patients in the dataset have diabetes or not?
+
+
+I was able to apply random forest algorithm, which uses bagging techniques for decision tree achieving an accuracy of 76.66%. I also applied xgboost algorithm which gave me an accuracy of 75.54%.
+Other algorithm applied are linear regression and logistic regression using sklearn linear model to attain 74.90%
+While KNN algorithm failed and was able to achieve an accuracy of 68.59%.
+Therefore, after applying these algorithm I came to a conclusion that Random forest algorithm out performed others in such balanced dataset.
